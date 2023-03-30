@@ -14,6 +14,10 @@ module.exports = {
         '-1': '-1',
       },
     },
+    fontFamily: {
+      Sarabun: ['Sarabun'],
+      Lobster: ['Lobster'],
+    },
   },
   plugins: [require('flowbite/plugin')],
 };

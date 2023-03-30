@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "db": "json-server --watch db.json --p 3005",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "flowbite": "^1.6.4",
+    "js-cookie": "^3.0.1",
     "lodash": "^4.17.21"
   }
 }

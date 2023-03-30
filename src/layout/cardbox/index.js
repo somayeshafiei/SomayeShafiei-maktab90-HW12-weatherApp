@@ -1,15 +1,15 @@
 import { El } from '../../library/El';
 
 export const cardbox = (i) => {
-  const mainPage = document.querySelector('#mainPage');
-  const cardBox = document.getElementById('cardBox');
+  const routes = document.querySelector('#routes');
+  const cardBox = document.querySelector('#cardBox');
   if (cardBox) {
     cardBox.remove();
   }
   console.log(i);
-  const result = El({
+  let result = El({
     element: 'div',
-    className: 'min-h-[550px] px-5 py-2',
+    className: 'min-h-[550px] px-5 py-2 z-10',
     id: 'cardBox',
     child: [
       El({
@@ -71,7 +71,7 @@ export const cardbox = (i) => {
             child: [
               El({
                 element: 'div',
-                className: 'h-[140px] w-full flex ',
+                className: 'h-[140px] w-full flex',
                 child: [
                   El({
                     element: 'div',
@@ -571,16 +571,16 @@ export const cardbox = (i) => {
       }),
     ],
   });
-
-  mainPage.append(result);
+  routes.appendChild(result);
 };
 
 export async function getweather() {
   let city;
   const inputValue = document.getElementById('inputValue');
-  if (!inputValue) {
+  console.log(inputValue);
+  if (!inputValue.value) {
     city = 'tehran';
-  } else if (inputValue) {
+  } else {
     city = inputValue.value;
   }
   const response = await fetch(

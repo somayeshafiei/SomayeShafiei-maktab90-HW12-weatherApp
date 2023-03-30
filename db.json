@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "ID": 1680093981444,
+      "user": "xuhuxele",
+      "email": "kuseduz@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 1
+    },
+    {
+      "ID": 1680094132258,
+      "user": "qufuh",
+      "email": "badu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 2
+    },
+    {
+      "ID": 1680095559769,
+      "user": "migiqi",
+      "email": "wiqakusi@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 3
+    },
+    {
+      "ID": 1680127771923,
+      "user": "bajetu",
+      "email": "besiru@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 4
+    },
+    {
+      "ID": 1680139655083,
+      "user": "somayeshafiee",
+      "email": "s.shafiee76@gmail.com",
+      "password": "1234",
+      "id": 5
+    }
+  ]
+}
